@@ -16,7 +16,7 @@ spec:
   ports:
   - port: 50051
     protocol: TCP
-    name: exabgp-api
+    name: gobgp-api
 ---
 apiVersion: apps/v1
 kind: DaemonSet
